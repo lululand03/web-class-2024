@@ -1,0 +1,34 @@
+p{
+    color:rgb(53, 13, 13);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    color: rgb(180, 62, 85);
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0; /* margin shorthand to not have to write them individually*/
+    /*line-height controls space between lines, and the space between the lines and the borders of the website, which often happens because of the space created by the font being used*/
+    line-height: 60px;
+    text-align: center;
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(95, 21, 36);
+    margin: 5px 5px 5px 5px;
+    text-align: center; /*centering specific texts, I can add text align to the body to align EVERYTHING, paragraphs etc */
+}
+
+body{
+    background-color: rgba(255, 172, 186, 0.362);
+    width: 1000px; /* makes the entirety of the website 1000 pixels, so when I make the website bigger and smaller it stays consistent*/
+    margin: 0 auto 0 auto; /*auto makes the left and right margins the same, centralizing everything*/
+    /*if i add text align here, everything in the body will be this text align, unless i use a text align specifically in a separate tag above*/ 
+}
+
