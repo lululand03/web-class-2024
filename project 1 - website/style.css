@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-polaroid{
+    background-image: url(.first-polaroid);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 75px;
+    width: 450px;
+    height: auto;
+}
+
+p {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    height: auto;
+}
+
+.quote {
+    padding: 0 100px 100px 100px;
+    text-align: center;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    font-size: 20pt;
+    display: block;
+    color: darkred;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 46px;
+}
+
+h3 {
+    font-family: helvetica,sans-serif;
+    font-size: 17pt;
+    padding-bottom: 10px;
+    color: darkred;
+}
+
+.imagetext {
+    position: absolute;
+    right: 10px;
+    display: block;
+}
+
+.text {
+    padding-left: 100px;
+    padding-top: 40px;
+    width: 600px;
+    display: block;
+}
+
+#about-book {
+    position: absolute;
+    padding-top: 600px;
+}
+
+#positioning {
+    position: absolute;
+    padding-top: 960px;
+    right: 100px;
+}
+
+.lastimg {
+    display: block; /* Ensure it behaves like a block element */
+    margin: 20px auto; /* Center the image if needed */
+    height: 432px;
+    width: 768px;
+    padding-top: 100px;
+padding-left: 100px; 
+padding-right: 110px;  }
+
+#findherwork {
+    transform: block;
+    padding-top: 1800px;
+    padding-left: 30%;    
+    padding-bottom: 100px;
+}
+
