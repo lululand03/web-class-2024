@@ -1,34 +1,98 @@
-p{
-    color:rgb(53, 13, 13);
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-style: italic;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #bfc2d1;
     text-align: center;
 }
 
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
-    color: rgb(180, 62, 85);
-    margin: 10px 0 0 0;
-    padding: 0 0 0 0; /* margin shorthand to not have to write them individually*/
-    /*line-height controls space between lines, and the space between the lines and the borders of the website, which often happens because of the space created by the font being used*/
-    line-height: 60px;
+header {
+    font-family: "Times New Roman", serif;
+    background-color: #df8040;
+    color: white;
+    padding: 2rem;
     text-align: center;
+    font-size: 2rem;
+    border-bottom: 5px solid #a9acb5;
 }
 
-h3{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    color: rgb(95, 21, 36);
-    margin: 5px 5px 5px 5px;
-    text-align: center; /*centering specific texts, I can add text align to the body to align EVERYTHING, paragraphs etc */
+nav {
+    background-color: #a9acb5;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
-body{
-    background-color: rgba(255, 172, 186, 0.362);
-    width: 1000px; /* makes the entirety of the website 1000 pixels, so when I make the website bigger and smaller it stays consistent*/
-    margin: 0 auto 0 auto; /*auto makes the left and right margins the same, centralizing everything*/
-    /*if i add text align here, everything in the body will be this text align, unless i use a text align specifically in a separate tag above*/ 
+nav a {
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    background-color: #df8040;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #df8040;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.media-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.media-container img, .media-container video {
+    max-width: 15%; 
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid #df8040;
+    border-radius: 8px;
+    display: block;
+}
+
+section p {
+    font-family: "Arial", sans-serif;
+    color: #444;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    font-family: "Arial", sans-serif;
+    background-color: #df8040;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #bfc2d1;
+    color: #df8040;
+    transform: scale(1.1);
 }
 
